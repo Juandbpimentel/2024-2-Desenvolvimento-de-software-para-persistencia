@@ -1,0 +1,3 @@
+goldensun.txt: 257 palavras, 1550 caracteres
+pokemon.txt: 219 palavras, 1357 caracteres
+zelda.txt: 351 palavras, 2053 caracteres
