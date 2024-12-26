@@ -5,4 +5,5 @@ logging:
 
 data:
   file: "personagens.csv" # Arquivo JSON com dados a serem processados
+  json: "data.json" # Arquivo CSV com dados a serem processados
 

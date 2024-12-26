@@ -69,7 +69,7 @@ def processaPessoas(pessoas: List[Pessoa]):
 def configurarLeitor():
     dadosDeConfiguracao = carregarYaml("config.yaml")
     configurarLog(dadosDeConfiguracao["logging"])
-    pessoasDesserializadas = carregarJson(dadosDeConfiguracao["data"]["file"])
+    pessoasDesserializadas = carregarJson(dadosDeConfiguracao["data"]["json"])
     processaPessoas(pessoasDesserializadas)
 print('Iniciando sistema de leitura e processamento de pessoas')
 configurarLeitor()
